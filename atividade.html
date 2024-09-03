@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Cadastro de pessoas:</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <label for="nascimento">Data Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento">
+            </div>
+            <div>
+                <label for="comida[]">Comida Favorita:</label>
+                <ul>
+                    <li><input type="checkbox" name="comida[]" id="hamburguer">Hambúrguer</li>
+                    <li><input type="checkbox" name="comida[]" id="pizza">Pizza</li>
+                    <li><input type="checkbox" name="comida[]" id="sushi">Sushi</li>
+                    <li><input type="checkbox" name="comida[]" id="cachorroQuente">Cachorro Quente</li>
+                    <li><input type="checkbox" name="comida[]" id="xis">Xis</li>
+                </ul>
+            </div>
+            <div>
+                <label for="descricao">Descreva suas caracteristicas:</label>
+                <textarea name="descricao" id="descricao"></textarea>
+            </div>
+            <div>
+                <label for="aceite">Aceita os termos e cadastro:</label>
+                <ul>
+                    <li><input type="radio" name="aceite" id="sim">Sim</li>
+                    <li><input type="radio" name="aceite" id="nao">Não</li>
+                </ul>
+            </div>
+            <div>
+                <input type="submit" value="Cadastrar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

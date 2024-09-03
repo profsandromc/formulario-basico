@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms para páginas Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get">
+        <label for="Nome">Nome Completo</label>
+        <input type="text" required class="campo" name="Nome" id="Nome" placeholder="digite seu nome" value=""><br>
+        <input type="color" name="CorFavorita" id="CorFavorita"><br>
+        <input type="date" name="" id=""><br>
+        <input type="time" name="" id=""><br>
+        <select name="" id="">
+            <option value="">- Selecionar -</option>
+            <option value="">Super Dogão</option>
+            <option value="">Sushi do Zé</option>
+            <option value="">Pizza do Alemão</option>
+            <option value="Morte Lenta">Morte Lenta</option>
+        </select>
+        <ul> <!-- Comentario -->
+            <li><input type="radio" name="turno" id="" value="Manhã"> Manhã</li>
+            <li><input type="radio" name="turno" id="" value="Tarde"> Tarde</li>
+            <li><input type="radio" name="turno" id="" value="Noite"> Noite</li>
+        </ul>
+        <ul>
+            <li><input type="checkbox" name="comida[]" id="" value="Pizza">Pizza</li>
+            <li><input type="checkbox" name="comida[]" id="" value="Sushi">Sushi</li>
+            <li><input type="checkbox" name="comida[]" id="" value="Cachorro Quente">Cachorro Quente</li>
+        </ul>
+        <textarea name="descricao" id=""></textarea>
+        <input type="submit" value="Cadastrar">
+        <input type="button" value="Botão Normal">  
+        <input type="reset" value="Limpar">
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
